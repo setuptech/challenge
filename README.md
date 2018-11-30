@@ -1,7 +1,7 @@
 
 
 
-# SETUP TECH Mobile Developer Technical Challenge
+# SETUP TECH Mobile(iOS) Developer Technical Challenge
 
 ### Business Requirement
 As an user I want to be able to see a list of my mails, including mail attachment photo, title and date. I also want to be able to see the mail details on the details screen and full description when I click on the mails list item.
@@ -107,4 +107,4 @@ These UI/UX are for reference only, you can be creative with designs and UI/UX f
 
 
 
-### Any Questions? We love to get back soon with answers: techchallenge@setup.technology  
+### Any Questions? We love to get back soon with answers: setupchallenge@setup.technology  

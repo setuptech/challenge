@@ -230,7 +230,7 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
   ```
   
 ### Wireframe
-These UI/UX are for reference only, you can be creative with designs and UI/UX features. 
+This UI/UX is for reference only, you can be creative with designs and UI/UX features. 
 <table>
 <tr border=0>
 <td border=0><img src="https://user-images.githubusercontent.com/45398704/51461014-39dbb000-1d87-11e9-8616-0602745aade5.jpg" /></td>

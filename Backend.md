@@ -1,4 +1,4 @@
-#  Software Engineer(Backend) Challenge
+#  Software Engineer (Backend) Challenge
 
 ## Background
 
@@ -160,7 +160,7 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
     }
   ```
 
-**List/Load **
+**List/Load**
 
 * Method: GET
 

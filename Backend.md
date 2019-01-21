@@ -22,15 +22,17 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
 
 1. User friendly Interface will be bonus
 
-2. End user will see the active users who are using the system right now
+2. Simple Sign up and login system
 
-3. They can send/receive message in real-time
+3. End user will see the active users who are using the system right now
 
-4. Synchronisation with Mobile Application Backend system. 
+4. They can send/receive message in real-time
+
+5. Synchronisation with Mobile Application Backend system. 
 
 ### API Endpoints
 
-1. Must be a RESTful HTTP API listening to port 8080
+1. It'll be a RESTful HTTP API listening to port 8080
 
 2. The API must implement 3 endpoints with path, method, request and response body as specified
   
@@ -78,7 +80,7 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
     {
      "name":"Full Name",
      "email":"example@email.com"
-    }
+    },
     .
     .
     .
@@ -89,10 +91,132 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
   ```
   or
 
-  Header: HTTP <HTTP_CODE> Body:
+  Header: `HTTP <HTTP_CODE>` Body:
 
   ```
     {
     "error": "ERROR_DESCRIPTION"
     }
   ```
+
+
+**Send**
+
+* Method: POST
+
+* URL path: /send
+
+* Request body:
+  
+   ```
+   {
+  "email": "example@email.com",
+  "message": "hey,welcome to setup tech"
+   }
+   ```
+
+
+* Response:
+
+  Header: `HTTP 200` Body:
+
+  ```
+  {
+   [
+    {
+     "name":"Jone Doe",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+     {
+     "name":"Jone Doe",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+    {
+     "name":"Alex Bolton",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+    
+    .
+    .
+    .
+    .
+    .
+   ]
+  }
+  ```
+  or
+
+  Header: `HTTP <HTTP_CODE>` Body:
+
+  ```
+    {
+    "error": "ERROR_DESCRIPTION"
+    }
+  ```
+
+**List/Load **
+
+* Method: GET
+
+* URL path: /list
+
+* Request body:
+  
+   ```
+   {
+  "email": "example@email.com"
+   }
+   ```
+
+
+* Response:
+
+  Header: `HTTP 200` Body:
+
+  ```
+  {
+   [
+    {
+     "name":"Jone Doe",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+     {
+     "name":"Jone Doe",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+    {
+     "name":"Alex Bolton",
+     "time":"78738473473483",
+     "message":"message goes here",
+     "email":"example@email.com"
+    },
+    
+    .
+    .
+    .
+    .
+    .
+   ]
+  }
+  ```
+  or
+
+  Header: `HTTP <HTTP_CODE>` Body:
+
+  ```
+    {
+    "error": "ERROR_DESCRIPTION"
+    }
+  ```
+
+## Any Questions? We love to get back soon with answers: setupchallenge@setup.technology

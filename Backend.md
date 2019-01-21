@@ -7,14 +7,23 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
 ## Technical Requirement
 
 1. We value a clean, simple working solution.
-2. You must provide a `start.sh` bash script at the root of the project, which should setup all relevant applications. It must work on Linux, MacOS.
+
+2. You must provide a `setup.sh` bash script at the root of the project, which should setup all relevant applications. It must work on Linux, MacOS.
+
 3. We prefer the following language/platform: `PHP`, `Node.js`.
-4. A Database must be used (at SETUP TECH we use mostly MySQL) but PostgreSQL is strongly requested for the challenge. The DB installation & initialisation must be done in `start.sh`.
+
+4. A Database must be used (at SETUP TECH we use mostly MySQL) but PostgreSQL is strongly requested for the challenge. The DB installation & initialisation must be done in `setup.sh`.
+
 5. You must submit the project as a git repository (github.com, bitbucket.com, gitlab.com). Repository must avoid containing words `setuptech`, `setuptechchallenge` and `challenge` if it's a public repo.
+
 6. Having unit/integration tests is a strong bonus.
-7. Code should be modular, each module should focus on doing one thing and do it well.
+
+7. Your code should be modular, each module should focus on doing one thing and do it well.
+
 8. The solution must be production ready.
-9. Avoid over-engineering.
+
+9. Ignore over-engineering.
+
 
 ## User Requirement
 
@@ -220,6 +229,13 @@ Here in SETUP TECH, we are developing a platform for real-time data update to en
     }
   ```
   
-  
+### Wireframe
+These UI/UX are for reference only, you can be creative with designs and UI/UX features. 
+<table>
+<tr border=0>
+<td border=0><img src="https://user-images.githubusercontent.com/45398704/51461014-39dbb000-1d87-11e9-8616-0602745aade5.jpg" width="420px"  /></td>
+
+</tr>
+</table>
 
 ## Any Questions? We love to get back soon with answers: setupchallenge@setup.technology
